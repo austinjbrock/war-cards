@@ -1,0 +1,39 @@
+html, body {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: #263849; 
+   display: flex;
+   flex-direction: column;
+}
+
+h1 {
+   color:#90f6d7; 
+   font-size: 2.2rem;
+   text-align: center;
+   margin-top: 100px;
+}
+
+img {
+   border: 2px orange;
+}
+
+#card-display-box{
+   margin: 20px 40px;
+}
+
+button{
+   font-size: 1.2em;
+   padding: 5px;
+   width: 50%;
+   margin: 0 auto;
+   display: fixed;
+   height: 70px;
+}
+
+.center-card-img {
+   text-align: center;
+   flex: auto; 
+}
